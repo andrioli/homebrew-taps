@@ -1,10 +1,10 @@
 cask 'oracle-jdk8' do
-  version '8u231'
-  url "https://www.dropbox.com/s/5sbnti0b9tjocoq/jdk-#{version}-macosx-x64.dmg?dl=1"
-  sha256 'f808d11b34fa9ee7b6326b5b6dd18544496e02c84b839d94e062bd4493df5d45'
+  version '8u241'
+  url "https://www.dropbox.com/s/67kldenczdpq3vd/jdk-#{version}-macosx-x64.dmg?dl=1"
+  sha256 '57a13fca47039dcd371158c0ed3265f407ba4184fb53e9cb2a95f8ecc49154ab'
   name 'Oracle Java 8 Standard Edition Development Kit'
 
-  pkg 'JDK 8 Update 231.pkg'
+  pkg 'JDK 8 Update 241.pkg'
 
   uninstall pkgutil: "com.oracle.jdk#{version}",
             delete: [
